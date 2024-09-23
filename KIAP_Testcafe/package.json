@@ -1,0 +1,27 @@
+{
+  "name": "kiap_testcafe",
+  "version": "0.0.1",
+  "description": "Automated testing with Testcafe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TestCafe",
+    "Testing",
+    "Automation"
+  ],
+  "author": "Aaron",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-transform-async-generator-functions": "^7.25.4",
+    "@babel/plugin-transform-class-properties": "^7.25.4",
+    "@babel/plugin-transform-object-rest-spread": "^7.24.7",
+    "@babel/plugin-transform-private-methods": "^7.25.4",
+    "glob": "^11.0.0",
+    "lru-cache": "^11.0.1",
+    "prettier": "^3.3.3",
+    "rimraf": "^6.0.1",
+    "testcafe": "^3.6.2"
+  }
+}
